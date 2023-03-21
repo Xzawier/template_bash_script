@@ -19,14 +19,14 @@ echo '#Version: ' >> $CHEMIN
 echo '#Created: '`date +%d.%m.%Y` at `date +%H:%M:%S` >> $CHEMIN
 echo -e '#Author: Kommandant Baltowski\n' >> $CHEMIN
 echo 'RED="\e[1;31m"' >> $CHEMIN
-echo 'BLUE="\e[1;33m"' >> $CHEMIN
+echo 'BLUE="\e[1;34m"' >> $CHEMIN
 echo 'GREEN="\e[1;32m"' >> $CHEMIN
 echo 'YELLOW="\e[1;33m"' >> $CHEMIN
 echo 'PURPLE="\e[1;35m"' >> $CHEMIN
 echo 'CYAN="\e[1;36m"' >> $CHEMIN
 echo 'WHITE="\e[1;37m"' >> $CHEMIN
 echo 'GREY="\e[1;30m"' >> $CHEMIN
-echo 'REDB="\e[44m"' >> $CHEMIN
+echo 'INV="\e[7m"' >> $CHEMIN
 echo 'RESET_COLOR="\e[0m"' >> $CHEMIN
 echo '#START#' >> $CHEMIN
 
